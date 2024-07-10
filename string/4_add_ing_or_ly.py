@@ -5,6 +5,7 @@ def add(string):
         return string +'ly'
     else:
         return string
+
 given_string=input('enter the string :')
 print(add(given_string))
 
