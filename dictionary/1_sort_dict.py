@@ -7,5 +7,5 @@ ascending = dict(sorted(my_dict.items(), key=get_value))
 descending = dict(sorted(my_dict.items(), key=get_value, reverse=True))
 
 print(f"Original dictionary {my_dict}")
-print(f"Dictionary sorted by value (ascending) {ascending}")
-print(f"Dictionary sorted by value (descending) {descending}")
+print(f"Dictionary sorted by value ascending {ascending}")
+print(f"Dictionary sorted by value descending {descending}")
